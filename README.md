@@ -1,51 +1,19 @@
-# VPNBot
-Advanced Telegram Bot for Managing VPN Services via XUI / 3x-ui Panels
+# 🚀 NukeNet VPN Sales Bot
+Advanced V2Ray/WireGuard Sales Bot with 3x-ui integration.
 
-## 🚀 Overview
-
-VPNBot is a fully-featured Telegram bot designed to **automate the sale, management, and renewal of VPN services**
-using **XUI / 3x-ui panels**.
-
-Unlike simple scripts, this project provides **real API-level integration** with the panel and is built to run
-in **production environments**.
-
-It supports both **V2Ray (VLESS)** and **WireGuard** services with a complete user flow.
-
----
+[🇮🇷 راهنمای فارسی](README_FA.md)
 
 ## ✨ Features
+* **Automated Provisioning:** Connects to 3x-ui API.
+* **Crypto Payments:** TRX/USDT via SwapWallet & Nobitex.
+* **Referral System:** Built-in growth tool.
+* **Admin Panel:** Full control via Telegram.
 
-### 🔹 User Features
-- Buy VPN subscriptions
-- Renew existing subscriptions
-- Get free test accounts
-- QR code + config delivery
-- Crypto payments (TRX / TON)
-- Wallet balance & referral rewards
-- Step-by-step connection guides
+## 🛠 Setup
+1. Clone the repo.
+2. Install requirements: `pip install -r requirements.txt`.
+3. Rename `.env.example` to `.env` and fill the variables.
+4. Run: `python vpnbot.py`.
 
-### 🔹 Admin Features
-- Manual payment approval
-- Bulk account creation
-- Maintenance mode
-- Test & simulation tools
-- Referral reward automation
-
----
-
-## 🧠 Architecture Overview
-
-```text
-Telegram User
-      │
-      ▼
-Aiogram Bot (FSM-based)
-      │
-      ├── SQLite Database
-      ├── Payment & Wallet System
-      ├── Referral Engine
-      │
-      └── TxuiManager
-              │
-              ▼
-        XUI / 3x-ui Panel API
+## 📜 License
+MIT
