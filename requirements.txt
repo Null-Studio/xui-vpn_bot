@@ -1,3 +1,4 @@
+```txt
 aiogram>=3.4
 httpx>=0.26
 python-dotenv>=1.0
